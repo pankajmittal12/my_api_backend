@@ -3,9 +3,9 @@ const express = require('express');
 
 const app = express();
 
-const indexRouter = require('./Router/router');
-
 const cors = require('cors');
+
+const indexRouter = require('./Router/router');
 
 app.use(cors());
 
